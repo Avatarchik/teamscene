@@ -1,0 +1,71 @@
+* {
+    color: rgb(218, 218, 218);
+    background-color:rgb(31, 31, 31);    
+}
+
+#root {
+    flex-direction: column;   
+}
+
+.section {
+    flex-direction: column;
+    justify-content: space-between;    
+    margin:10px;    
+    border-radius: 5px;
+    background-color: rgb(44, 44, 44);    
+    padding: 10px;
+}
+
+.section * {
+    background-color: rgb(44, 44, 44);    
+}
+
+.unity-button {
+    background-image: none;
+    background-color: rgb(163, 163, 163);
+    color: rgb(39, 39, 39);
+}
+
+.unity-button:hover{
+    background-image: none;
+    background-color: rgb(39, 39, 39);
+    color: rgb(163, 163, 163);
+}
+
+.unity-button#submit {            
+    font-size: 20px;    
+    align-self: flex-end;
+    margin-top: 5px;    
+}
+
+.setting-label {     
+    flex-direction: row; 
+    -unity-text-align: middle-left;                
+    max-height: 20px;
+    flex-grow: 0.1;
+}
+
+.setting-field {        
+    flex: 1 0;
+    height: 20px;
+}
+
+.container{        
+    flex-direction: row;  
+    flex-grow: 1;    
+    justify-content: center;
+}
+
+.unity-text-element#username {
+    margin-top: 10px;
+}
+
+#create-team-label {
+    -unity-text-align: middle-left;
+}
+
+.unity-base-text-field * {
+    background-image: none;
+    background-color: rgb(163, 163, 163);
+    color: rgb(31, 31, 31);
+}

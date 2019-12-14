@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:engine="UnityEngine.UIElements"
+    xmlns:editor="UnityEditor.UIElements"
+    xsi:noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd"
+>
+<engine:VisualElement name="root">
+    <engine:VisualElement class="section" name="set-up">
+        <engine:VisualElement class="container">
+            <engine:Label class="setting-label" text="Paste your team code:" />
+            <engine:TextField class="setting-field" name="connection-code"/>
+        </engine:VisualElement>
+        <engine:VisualElement class="container" name="username">
+            <engine:Label class="setting-label" text="Your name:" />
+            <engine:TextField class="setting-field" name="username-field"/>
+        </engine:VisualElement>
+        <engine:Button name="submit" text="Join"/>
+    </engine:VisualElement>
+    <engine:VisualElement class="section" name="project-info">
+        <engine:Label text="Already in a project. Project info:"/>
+        <engine:Label name="project-name"/>
+    </engine:VisualElement>
+    <engine:VisualElement name="create-team">
+        <engine:VisualElement class="container">
+            <engine:Label name="create-team-label" text="Don't have a team code yet?" />
+            <engine:Button name="create-team-button" text="Set up team"/>
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:VisualElement>
+</engine:UXML>
