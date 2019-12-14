@@ -36,7 +36,6 @@ namespace Teamscene
             path = path.Substring(0, path.LastIndexOf('/'));
             path += "/TeamsceneConfig.asset";
 
-            Debug.Log(path);
             var instance = ScriptableObject.CreateInstance<TeamsceneConfig>();
             AssetDatabase.CreateAsset(instance, path);
 
@@ -54,7 +53,6 @@ namespace Teamscene
                 // Debug.Log(asset.GetType());
                 if (asset == null) continue;
 
-                Debug.Log(asset.GetClass());
                 if (asset != null && asset.GetClass() == typeof(TeamsceneConfig))
                 {
                     return path;
