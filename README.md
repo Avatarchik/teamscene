@@ -13,3 +13,4 @@ That's it.
 
 ## Credits
 Toolbar indicator made using [Unity Toolbar Extender](https://github.com/marijnz/unity-toolbar-extender) by Marijnz
+Web application by [Kawzar](https://github.com/kawzar/)
