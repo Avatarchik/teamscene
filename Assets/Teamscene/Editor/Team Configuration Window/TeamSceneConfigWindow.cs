@@ -12,7 +12,7 @@ namespace Teamscene.Editor
         private TextField usernameField;
 
 
-        [MenuItem("Window/UIElements/TeamSceneConfigWindow %#E")]
+        [MenuItem("Window/Teamscene/Teamscene Config... %#E")]
         public static void ShowExample()
         {
             TeamSceneConfigWindow wnd = GetWindow<TeamSceneConfigWindow>();
